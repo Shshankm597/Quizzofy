@@ -4,7 +4,7 @@ export type Option = {
   };
 
 export type Question = {
-    quetionNumber: number;
+    questionNumber: number;
     question: string;
     points: number;
     options: Option[];

@@ -7,7 +7,7 @@ const quizzes: Quiz = [
   totalQuestion: 3,
   questions: [
     {
-      quetionNumber: 1,
+      questionNumber: 1,
       question: "What Should Be More Important To A Man: ",
       points: 10,
       options: [
@@ -23,7 +23,7 @@ const quizzes: Quiz = [
       answer: "Style",
     },
     {
-      quetionNumber: 2,
+      questionNumber: 2,
       question: "What's More Important: Clothing Fit or Clothing Brand?",
       points: 10,
       options: [
@@ -39,7 +39,7 @@ const quizzes: Quiz = [
       answer: "Clothing Fit",
     },
     {
-      quetionNumber: 3,
+      questionNumber: 3,
       question: "Does Clothing Brand Actually Matter? Yes or No?",
       points: 10,
       options: [
@@ -62,7 +62,7 @@ totalPoints: 30,
 totalQuestion: 3,
 questions: [
   {
-    quetionNumber: 1,
+    questionNumber: 1,
     question: "Which brand is ‘The Brand with 3 Stripes’?",
     points: 10,
     options: [
@@ -86,7 +86,7 @@ questions: [
     answer: "Adidas",
   },
   {
-    quetionNumber: 2,
+    questionNumber: 2,
     question: "Which brand name means ‘For Us By Us’?",
     points: 10,
     options: [
@@ -110,7 +110,7 @@ questions: [
     answer: "FUBU",
   },
   {
-    quetionNumber: 3,
+    questionNumber: 3,
     question: "Which Fashion brnad has two G's in it's logo?",
     points: 10,
     options: [
