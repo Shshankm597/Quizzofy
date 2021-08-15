@@ -1,6 +1,8 @@
+import { Dispatch, SetStateAction } from "react";
+
 export type Option = {
     text: string;
-    isRight: boolean;
+    optionId: string;
   };
 
 export type Question = {
@@ -21,4 +23,15 @@ export type Quiz = {
 export type QuizData = {
     data: Quiz[];
   };
-  
+
+  export type AnswerManager = {
+    currentQuestion: number;
+    isRight: boolean;
+    setCurrentQuestion: Dispatch<SetStateAction<number>>;
+    setUserAnswer: Dispatch<SetStateAction<boolean[]>>;
+  };
+
+  export type UserAnswerType = {
+    questionNumber: number;
+    answer: string;
+  }
