@@ -9,7 +9,7 @@ import {
   import { useMediaQuery } from "@chakra-ui/react";
   import { useEffect, useState } from "react";
   import { useNavigate, useParams } from "react-router-dom";
-  import { useQuiz } from "../../context/quizContext";
+  import { useQuiz } from "../../Context/quizContext";
   
 
 export function QuizPage() {

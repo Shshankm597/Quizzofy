@@ -1,7 +1,7 @@
 import { useLocation, useParams, NavLink } from "react-router-dom";
 import { UserAnswerType } from "../../data/quiz.types";
 import { Box, Center, Text, Heading, Button, Flex } from "@chakra-ui/react";
-import { useQuiz } from "../../context/quizContext";
+import { useQuiz } from "../../Context/quizContext";
 
 export function Dashboard() {
   const userAns = useLocation().state as UserAnswerType[];

@@ -8,7 +8,7 @@ import {
   Flex,
   useMediaQuery,
 } from "@chakra-ui/react";
-import { useQuiz } from "../../context/quizContext";
+import { useQuiz } from "../../Context/quizContext";
 
 export function QuizSelectionCard() {
   const navigate = useNavigate();
