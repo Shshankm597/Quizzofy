@@ -24,7 +24,6 @@ export function QuizPage() {
 
   const [currentQuestion, setCurrentQuestion] = useState<number>(0);
   const quizLength = quizData.data[0].questions.length + 1;
-  const [isSmallerThan600] = useMediaQuery("(max-width:600px)");
 
 
   useEffect(() => {
