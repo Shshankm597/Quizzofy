@@ -19,7 +19,7 @@ export function Dashboard() {
         (ans) => ans.questionNumber === question.questionNumber
       );
       if (ansObj!.answer === question.answer) {
-        return prev + 1;
+        return prev + question.points;
       }
       return prev;
     }, 0);
@@ -56,7 +56,7 @@ export function Dashboard() {
           <Flex direction="column">
             <Heading size="md" mb="4">
               Welcome to dashboard
-              <Text> {userAns && `Score: ${score}/${userAns.length}`}</Text>
+              <Text> {userAns && `Score: ${score}/${quizData.data[quizid].totalPoints}`}</Text>
             </Heading>
             <Box textAlign="left" m="1" maxW="800px" minW="300px" p="1.5rem">
               {userAns &&
