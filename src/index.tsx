@@ -5,7 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { ChakraProvider } from "@chakra-ui/react"
 import { BrowserRouter as Router } from 'react-router-dom';
-import { QuizContextProvider } from './context/quizContext';
+import { QuizContextProvider } from './Context/quizContext';
 
 
 ReactDOM.render(
